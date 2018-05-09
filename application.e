@@ -17,12 +17,11 @@ feature {NONE} -- Initialization
 	make
 			-- Run application.
 		local
-			a, b: INTEGER
+			a: INTEGER
 		do
 			--| Add your code here
 			a := 4
-			b := 2
-			if a.is_greater(b) then
+			if a.is_greater(2) then
 				print ("Hello Eiffel World!%N")
 			end
 		end
